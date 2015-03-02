@@ -68,26 +68,30 @@ typedef struct {
 
 static map_t map[] = {
     /* player 1 controls */
-    { .pin = 4,    .key = KEY_DOWN,     .fd = -1, }, /* down */
-    { .pin = 15,   .key = KEY_UP,       .fd = -1, }, /* up */
-    { .pin = 17,   .key = KEY_RIGHT,    .fd = -1, }, /* right */
-    { .pin = 18,   .key = KEY_LEFT,     .fd = -1, }, /* left */
-    { .pin = 27,   .key = KEY_ENTER,    .fd = -1, }, /* green */
-    { .pin = 22,   .key = KEY_LEFTALT,  .fd = -1, }, /* blue */
-    { .pin = 23,   .key = KEY_SPACE,    .fd = -1, }, /* yellow */
-    { .pin = 28,   .key = KEY_1,        .fd = -1, }, /* 1-player */
-    { .pin = 29,   .key = KEY_2,        .fd = -1, }, /* 2-player */
-    { .pin = 30,   .key = KEY_5,        .fd = -1, }, /* side button (coin) */
-    { .pin = 31,   .key = KEY_ESC,      .fd = -1, }, /* side button (esc) */
+    { .pin = 4,    .key = A ,          .fd = -1, }, 
+    { .pin = 7,    .key = KEY_B,       .fd = -1, }, 
+    { .pin = 8,    .key = KEY_C,       .fd = -1, }, 
+    { .pin = 9,    .key = KEY_D,       .fd = -1, }, 
+    { .pin = 11,   .key = KEY_E,       .fd = -1, }, 
+    { .pin = 14,   .key = KEY_F,        .fd = -1, }, 
+    { .pin = 17,   .key = KEY_G,        .fd = -1, }, 
+    { .pin = 18,   .key = KEY_H,        .fd = -1, }, 
+    { .pin = 22,   .key = KEY_I,        .fd = -1, }, 
+    { .pin = 23,   .key = KEY_J,        .fd = -1, }, 
+    { .pin = 24,   .key = KEY_K,        .fd = -1, }, 
+    { .pin = 25,   .key = KEY_L,        .fd = -1, }, 
+    { .pin = 27,   .key = KEY_N,        .fd = -1, }, 
+    { .pin = 28,   .key = KEY_O,        .fd = -1, }, 
+    { .pin = 29,   .key = KEY_P,        .fd = -1, }, 
+    { .pin = 30,   .key = KEY_Q,        .fd = -1, }, 
+    { .pin = 29,   .key = KEY_R,        .fd = -1, }, 
+    { .pin = 10,   .key = KEY_ESC,      .fd = -1, }, /* side button (esc) */
 
     /* player 2 controls */
+    /*
     { .pin = 24,   .key = KEY_F,        .fd = -1, }, /* down */
-    { .pin = 10,   .key = KEY_R,        .fd = -1, }, /* up */
-    { .pin = 9,    .key = KEY_G,        .fd = -1, }, /* right */
-    { .pin = 25,   .key = KEY_D,        .fd = -1, }, /* left */
-    { .pin = 11,   .key = KEY_A,        .fd = -1, }, /* green */
-    { .pin = 8,    .key = KEY_S,        .fd = -1, }, /* blue */
-    { .pin = 7,    .key = KEY_Q,        .fd = -1, }, /* yellow */
+
+    */
 };
 static const int maplen = sizeof (map) / sizeof (map[0]);
 
